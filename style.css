@@ -25,6 +25,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -32,4 +33,20 @@ section{
 }
 .half-width img{
     width: 90%;
+}
+.dream-big{
+    background-image: url(bg1.png);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-big2{
+    background-image: linear-gradient(orange,tomato);
+    text-decoration: none;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+
 }
